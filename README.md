@@ -49,7 +49,6 @@ where `--model_path` can be any LLaMA family models on HuggingFace.
 ### Training
 
 After obtainining a checkpoint of stacked models, one can train it via the following command:
-## SLURM Launch
 ```
 python main.py \
     --hf_model_name_or_path <huggingface_model_path> \
